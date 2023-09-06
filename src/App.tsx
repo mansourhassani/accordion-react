@@ -1,12 +1,11 @@
-import { IoAirplaneOutline } from 'react-icons/io5';
+import Questions from './Question';
 function App() {
 	return (
-		<div className="App">
-			تست
-			<button type="button" className="btn btn-success">
-				Success
-			</button>
-			<IoAirplaneOutline />
+		<div className="container">
+			<h3>سوالی برایتان پیش آمده؟</h3>
+			<div className="info">
+				<Questions />
+			</div>
 		</div>
 	);
 }
